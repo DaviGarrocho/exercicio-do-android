@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'droid';
+    src: url('fontes/idroid.otf');
+}
+
+
+h1,h2{
+    font-family: 'droid';
+    color: green;
+}
+body{
+    margin: 0px;
+    background-color: lightgreen;
+}
+html{
+    margin: 0px;
+}
+p{
+    text-align: justify;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(0, 68, 0), rgb(4, 170, 4));
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+}header > h1{font-weight: normal; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: white;}
+header > menu > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    border-radius: 5px;
+    transition-duration: 500ms;
+    padding: 6px;
+}header > menu > a:hover{
+    text-decoration: underline;
+    background-color: green;}
+    header > p{
+        text-align: center;
+    }
+    
+
+img{
+    width: 100%;
+}
+
+div.video{
+    background-color: rgb(4, 75, 4);
+    padding: 10px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main{
+    padding: 20px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding-top: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}main img.pq{max-width: 350px; display:block; margin: auto;}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+main strong{
+    color: green;
+}
+main a{
+    text-decoration: none;
+    font-weight:bold ;
+    color: green;
+    
+}
+main a:hover{
+    text-decoration: underline;
+}
+main a::after{
+    content: url(imagens/Link-icon.png);
+}
+main h2{
+    background-image: linear-gradient(to right, rgb(119, 204, 119), rgba(255, 255, 255, 0));
+    text-indent: 8px;
+}
+aside{
+    background-color: rgb(134, 224, 134);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+}
+aside ul{
+    list-style-type: '\2714\00A0';
+    columns: 2;
+}
+aside h3{
+    color: white;
+    background-color: green;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    
+}footer p{text-align: center;}
